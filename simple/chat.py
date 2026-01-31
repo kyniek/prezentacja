@@ -6,7 +6,7 @@ from datetime import datetime
 
 # 192.168.32.15
 # LMStudio API configuration
-LMSTUDIO_URL = "http://192.168.32.15:1234/v1/chat/completions"
+LMSTUDIO_URL = "http://192.168.32.18:1234/v1/chat/completions"
 HEADERS = {
     "Content-Type": "application/json"
 }
@@ -17,7 +17,8 @@ def main():
 
     # Test connection
     try:
-        response = requests.get(f"{LMSTUDIO_URL.replace('/v1/chat/completions', '/health')}")
+        health_url = f"{LMSTUDIO_URL.replace('/v1/chat/completions', '/health')}"
+        response = requests.get(health_url)
         if response.status_code != 200:
             print("Error: Could not connect to LMStudio. Make sure it's running on port 1234")
             return
@@ -112,7 +113,6 @@ def main():
             break
         except Exception as e:
             print(f"\nError: {e}")
-
 
 
 
