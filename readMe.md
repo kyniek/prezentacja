@@ -10,10 +10,10 @@ It does not "understand" the world in a symbolic sense, but it can very effectiv
 
 ### Local LLMs vs. Commercial Giants like David and Goliat
 
-The landscape of Large Language Models is dominated by commercial cloud-based services like OpenAI's GPT, 
+<p style="text-align: justify;">The landscape of Large Language Models is dominated by commercial cloud-based services like OpenAI's GPT, 
 Anthropic's Claude, and Google's Gemini. However, the rapid advancement of open-source models (like Deepseek, Mistral, and Qwen) 
 that can run on local hardware is creating a compelling alternative. While commercial LLMs often lead in raw benchmark performance 
-and ease of use, local models offer distinct and growing benefits centered on control, privacy, and customization.
+and ease of use, local models offer distinct and growing benefits centered on control, privacy, and customization.</p>
 
 ### Why to use local LLMs
 - **Unmatched Privacy and Data Security:** This is the most important advantage. When you run a model locally, your  data, 
@@ -38,13 +38,13 @@ task—a 7B parameter model for simple classification can be faster and cheaper 
 You avoid the latency of network calls, achieving near-instant responses for interactive applications.
 
 ### US CLOUD Act
-The US CLOUD Act gives American government possibility to enforce US-based cloud providers—and non-US companies with a 
+<p style="text-align: justify;">The US CLOUD Act gives American government possibility to enforce US-based cloud providers—and non-US companies with a 
 sufficient operational presence in the US—to disclose data they control, even if that data is physically stored on servers in another country. 
 This means data processed on major US cloud infrastructure can be subject to US warrants, creating legal risks for organizations in 
 jurisdictions with conflicting privacy laws like the EU's GDPR. While requests must meet specific legal standards 
 and providers can challenge them, the possibility of access creates a fundamental tension for entities requiring strict data sovereignty. 
 Consequently, for organizations handling highly sensitive data, this extraterritorial reach is a key reason to consider local, 
-non-US infrastructure or LLMs to maintain exclusive jurisdictional control.
+non-US infrastructure or LLMs to maintain exclusive jurisdictional control.</p>
 
 ### Risks when using commercial LLMs
 <p style="text-align: justify;">The Samsung case you mention is an excellent example of real risk associated with public AI tools. In 2023, 
@@ -56,6 +56,28 @@ the phenomenon known as "Shadow AI," which refers to unauthorized use of AI tool
 to OpenAI’s support team and are not used to train the company’s models. However, this is not true of text inputted into the general web 
 interface using its default settings. In response, Samsung introduced a temporary ban on using generative AI tools on 
 corporate devices.</p>
+
+### Privacy risks - example OpenAI
+Data sent through the API is not used for training models, while data from consumer ChatGPT accounts is used by default unless you opt out:
+- https://openai.com/policies/row-privacy-policy/
+- https://www.eset.com/blog/en/home-topics/cybersecurity-protection/is-chatgpt-safe-2026-guide
+- https://community.openai.com/t/data-privacy-with-openai-api/929399
+
+It is critical to remember that "not used for training" does not mean "not stored or accessible." All data, regardless of source, may be:
+
+- Temporarily retained (e.g., for up to 30 days) for security and abuse monitoring.
+  - https://openai.com/policies/row-privacy-policy/
+  - https://community.openai.com/t/data-privacy-with-openai-api/929399
+  - https://community.openai.com/t/does-open-ai-api-use-api-data-for-training/659053
+- Accessed by authorized personnel for safety reviews or to comply with legal requests.
+  - https://www.eset.com/blog/en/home-topics/cybersecurity-protection/is-chatgpt-safe-2026-guide
+  - https://nordvpn.com/blog/is-chatgpt-private/?srsltid=AfmBOoqYwboPYYTC9sRwaDc5VqahNiiascLOPn6VRvN9cHZvsUTCdqdc
+- Subject to breaches, as with any online service. Past incidents have exposed chat titles and user credentials.
+  - https://www.eset.com/blog/en/home-topics/cybersecurity-protection/is-chatgpt-safe-2026-guide
+  - https://concentric.ai/chatgpt-security-risks-in-2026-a-guide-to-risks-your-team-might-be-missing/
+
+Therefore, the best practice is to never share highly sensitive personal, financial, or proprietary company information with any AI chatbot.
+
 
 ### Are LLS much weaker than commercial giants? 
 Lets look :
