@@ -2,6 +2,7 @@
 marp: true
 theme: default
 html: true
+class: invert
 style: |
   .title {
     position: absolute;
@@ -48,9 +49,33 @@ style: |
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     z-index: 0;
   }
+
+  .green-box {
+    color: #00FF00;
+    text-align: center;
+    padding: 100px 60px;
+    margin: 50px auto;
+    max-width: 900px;
+    border: 2px solid #00FF00;
+    border-radius: 10px;
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 28px;
+    line-height: 1.8;
+  }
+---
+<div class="green-box">
+
+Please allow me to introduce myself
+I'm a man of artificial intelligence  
+I've been learning for a long, long year  
+It stole many moments of my life
+<br>
+Call me Chris
+</div>
+
 ---
 
 <div class="title">What is LLM</div>
@@ -67,3 +92,14 @@ style: |
 <div class="txt">Full Control and Customization
 <br>Privacy and Data Security</div>
 <img class="bg" src="img/llm/img_00764_.png" />
+
+---
+
+<img class="bg" src="img/llm/img_00759_.png" />
+
+---
+
+<div class="green-box">
+
+https://github.com/kyniek/prezentacja
+</div>
