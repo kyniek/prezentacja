@@ -89,8 +89,10 @@ Call me Chris
 ---
 
 <div class="title3">Why to use local LLMs</div>
-<div class="txt">Full Control and Customization
-<br>Privacy and Data Security</div>
+<div class="txt">Cost Predictability and Operational Independence
+<br>Full Control and Customization
+<br>Privacy and Data Security
+<br>Transparency</div>
 <img class="bg" src="img/llm/img_00764_.png" />
 
 ---
@@ -102,4 +104,7 @@ Call me Chris
 <div class="green-box">
 
 https://github.com/kyniek/prezentacja
+https://livebench.ai/#/
+https://llm-stats.com/
+
 </div>

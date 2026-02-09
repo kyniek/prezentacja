@@ -1,11 +1,3 @@
----
-marp: true
-theme: default
----
-
-# Say Hello!
-:) 
-
 ### What is LLM 
 <p style="text-align: justify;">LLM (Large Language Model) is a machine learning model trained on massive text datasets, which learns statistical dependencies between tokens.
 Technically, it is most commonly a transformer that predicts the next token based on context, but thanks to its scale, it can model complex linguistic and conceptual patterns.
