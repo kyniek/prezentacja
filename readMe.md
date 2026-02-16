@@ -99,6 +99,15 @@ Lets look :
 
 
 **Show Whisper**
+
+cd /Users/krzysztof.nielepkowicz/dev/whisper
+
+source venv/bin/activate
+
+mlx_whisper "/Users/krzysztof.nielepkowicz/DEV/prezentacja/audio/PL.mp3" \
+  --model mlx-community/whisper-large-v3-mlx \
+  --output-format txt > /Users/krzysztof.nielepkowicz/DEV/prezentacja/audio/transcript_pl.txt
+
 - english
 - german
 - polish
