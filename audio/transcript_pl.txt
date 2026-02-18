@@ -1,0 +1,68 @@
+Args: {'audio': ['/Users/krzysztof.nielepkowicz/DEV/prezentacja/audio/PL.mp3'], 'model': 'mlx-community/whisper-large-v3-mlx', 'output_name': None, 'output_dir': '.', 'output_format': 'txt', 'verbose': True, 'task': 'transcribe', 'language': None, 'temperature': 0, 'best_of': 5, 'patience': None, 'length_penalty': None, 'suppress_tokens': '-1', 'initial_prompt': None, 'condition_on_previous_text': True, 'fp16': True, 'compression_ratio_threshold': 2.4, 'logprob_threshold': -1.0, 'no_speech_threshold': 0.6, 'word_timestamps': False, 'prepend_punctuations': '"\'“¿([{-', 'append_punctuations': '"\'.。,，!！?？:：”)]}、', 'highlight_words': False, 'max_line_width': None, 'max_line_count': None, 'max_words_per_line': None, 'hallucination_silence_threshold': None, 'clip_timestamps': '0'}
+Detecting language using up to the first 30 seconds. Use the `language` decoding option to specify the language
+Detected language: Polish
+[00:00.000 --> 00:24.860]  Gdy do murów
+[00:30.000 --> 00:32.200]  Do ludności, do żołnierzy
+[00:32.200 --> 00:35.200]  Na alarm czarny dróg uderzy
+[00:35.200 --> 00:38.220]  I byle drap, i byle szczeniak
+[00:38.220 --> 00:41.120]  W odwieczne kłamstwo ich uwierzy
+[00:41.120 --> 00:44.500]  Że trzeba iść i z armat walić
+[00:44.500 --> 00:48.000]  Mordować, grabić, pruć i palić
+[00:48.000 --> 00:50.820]  Gdy zaczną nad tysiączną modłę
+[00:50.820 --> 00:53.880]  Ojczyznę szarpać deklinacją
+[00:53.880 --> 00:56.620]  I łudzić kolorowym gogłem
+[00:56.620 --> 00:59.580]  I łudzić historyczną racją
+[00:59.580 --> 01:02.960]  O pięci chwale i ród wierzy
+[01:02.960 --> 01:05.980]  O ojcach, dziadach i sztandarach
+[01:05.980 --> 01:08.400]  O bohaterach i ofiarach
+[01:08.400 --> 01:11.420]  O bohaterach i ofiarach
+[01:11.420 --> 01:14.980]  Gdy wyjdzie biskup, pastor, rabin
+[01:14.980 --> 01:17.260]  Pogłogosławić twój karabin
+[01:17.260 --> 01:20.260]  Bo mu sam Pan Bóg szepnął z nieba
+[01:20.260 --> 01:23.160]  Że za ojczyznę bić się trzeba
+[01:23.160 --> 01:26.040]  Kiedy rozchcierwi się rozchami
+[01:26.040 --> 01:29.160]  Wrzask liter z pierwszych stron dzienników
+[01:29.160 --> 01:32.220]  A stado dzikich bab kwiatami
+[01:32.220 --> 01:35.540]  Odrzucać zacznie żołnierzyków
+[01:35.540 --> 01:38.000]  O przyjacielu nieuczony
+[01:38.000 --> 01:41.120]  Mój bliźny z tej czy innej ziemi
+[01:41.120 --> 01:44.220]  Wie, że na trwogę piją w dzwony
+[01:44.220 --> 01:47.260]  Króle z panami dzucha teni
+[01:47.260 --> 01:50.320]  Wie, że to pójda w ranga zwykła
+[01:50.320 --> 01:53.040]  Gdy ci wołają broń na ramię
+[01:53.040 --> 01:56.340]  Że im gdzieś nafta z ziemi sikła
+[01:56.340 --> 01:58.340]  I obrodziła dolarami
+[01:59.160 --> 02:02.160]  Że coś im w bankach nie szpymuje
+[02:02.160 --> 02:05.160]  Że gdzieś zwęszyli kasy pełne
+[02:05.160 --> 02:08.160]  Lub upatrzyły tłuste szuje
+[02:08.160 --> 02:11.160]  Cło jakieś grubsze na bawełnę
+[02:11.160 --> 02:15.160]  Rżnij karabinem w próg ulicy
+[02:15.160 --> 02:17.160]  Twoja jest krew, a ich jest nafta
+[02:17.160 --> 02:20.160]  I od stolicy do stolicy
+[02:20.160 --> 02:23.160]  Zawołaj broniąc tej krawicy
+[02:23.160 --> 02:26.160]  Bujać to my, panowie szlachta
+[02:26.160 --> 02:29.160]  Bujać to my, panowie szlachta
+[02:29.160 --> 02:32.160]  Bujać to my, panowie szlachta
+[02:32.160 --> 02:35.160]  Bujać to my, panowie szlachta
+[02:35.160 --> 02:38.160]  Bo przyjacielom nieoczony
+[02:38.160 --> 02:41.160]  Mój bliźny z tej czy innej ziemi
+[02:41.160 --> 02:44.160]  Wie, że na trwogę piją w dzwony
+[02:44.160 --> 02:47.160]  Króle z panami dzucha teni
+[02:47.160 --> 02:50.160]  Wie, że to pójda w ranga zwykła
+[02:50.160 --> 02:53.160]  Gdy ci wołają broń na ramię
+[02:53.160 --> 02:56.160]  Że im gdzieś nafta z ziemi sikła
+[02:56.160 --> 02:59.160]  I obrodziła dolarami
+[02:59.160 --> 03:02.160]  Że coś im w bankach nie sztymuje
+[03:02.160 --> 03:05.160]  Że gdzieś zwęszyli kasy pełne
+[03:05.160 --> 03:08.160]  Lub upatrzyły tłuszcz te szuje
+[03:08.160 --> 03:11.160]  Swoja grubsze na bawełnę
+[03:11.160 --> 03:14.160]  Rżnij karabinem w próg ulicy
+[03:14.160 --> 03:17.160]  Twoja jest krew, a ich jest nafta
+[03:17.160 --> 03:20.160]  I od stolicy do stolicy
+[03:20.160 --> 03:23.160]  Zawołaj broniąc tej krawicy
+[03:23.160 --> 03:26.160]  Bujać to my, panowie szlachta
+[03:26.160 --> 03:29.160]  Bujać to my, panowie szlachta
+[03:29.160 --> 03:32.160]  Bujać to my, panowie szlachta
+[03:32.160 --> 03:35.160]  Bujać to my, panowie szlachta
+[03:35.160 --> 03:38.160]  Bujać to my, panowie szlachta
+[03:38.160 --> 03:41.160]  Bujać to my, panowie szlachta
