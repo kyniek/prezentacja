@@ -6,7 +6,7 @@ from datetime import datetime
 
 # 192.168.32.15
 # LMStudio API configuration
-LMSTUDIO_URL = "http://192.168.32.18:1234/v1/chat/completions"
+LMSTUDIO_URL = "http://10.145.136.207:1234/v1/chat/completions"
 HEADERS = {
     "Content-Type": "application/json"
 }

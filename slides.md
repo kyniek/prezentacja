@@ -83,7 +83,7 @@ Call me Chris
 
 ---
 
-<div class="title2">Local LLMs vss Commercial Giants like David and Goliat</div>
+<div class="title2">Local LLMs Vs. Commercial Giants like David and Goliat</div>
 <img class="bg" src="img/llm/image_local_vs_api.jpg" />
 
 ---

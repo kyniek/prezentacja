@@ -4,8 +4,8 @@ import time
 import sys
 from datetime import datetime
 
-# LMStudio API configuration
-LMSTUDIO_URL = "http://localhost:1234/v1/chat/completions"
+from simple.chat import LMSTUDIO_URL
+
 HEADERS = {
     "Content-Type": "application/json"
 }
